@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href ="../myWebsite/Pictures/myLogo3.jpeg" rel="icon" type="image/png">
+       <title>THUNDER</title>
+       <script src="../myWebsite/myWebsite.js"></script>
+       <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+       <link href ="../myWebsite/myWebsite.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+        <section id="header">
+            <a href="myWebsite.html"><img src="../myWebsite/Pictures/myLogo3.jpeg" class="logo" alt=""></a>
+
+            <div>
+                <ul id = "navbar">
+                    <li><a href="myWebsite.html" >Home</a></li>
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                    <a href="#" id="close"><i class="far fa-times"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                <i id ="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+
+
+        <section id = "page-header" >
+            <h2>#stayhome</h2>
+            <p>Save more with coupons & up to 70% off!</p>
+        </section>
+
+
+        <section id ="product1" class="section-p1">
+            <div class="pro-container">
+                <div class="pro" onclick="window.location.href='singproduct.html';">
+                    <img src="../myWebsite/Pictures/Products/Product1/f1.jpg" id="first_product">
+                    <div class="des">
+                        <span>hoodie</span>
+                        <h5>Hoodie Flees Colorful</h5>
+                        <div class="colors">
+                            <button class="beige" title = "beige" onclick="changeToBeige()"></button>
+                            <button class="blue" title ="dark blue" onclick="changeToBlue()"></button>
+                            <button class="green" title="dark green"onclick="changeToGreen()"></button>                              
+                            <button class="red" title="red" onclick="changeToRed()"></button>
+                            <button class="black" title="black" onclick="changeToBlack()"></button>
+                            <button class="blue_light" title="light blue" onclick="changeToLightBlue()"></button>
+                            <button class="yellow" title="dark yellow" onclick="changeToYellow()"></button>
+                        </div>
+                        <br/>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>25USD</h4>
+                    </div>
+                    <a href="#"><i id="cart" class="fal fa-shopping-cart"></i></a>
+                </div>
+
+
+                <div class="pro">
+                    <img src="../myWebsite/Pictures/Products/Product2/f2.jpg" id="second_product">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Jacket Colorful</h5>
+                        <div class="colors">
+                            <button class="beige" title = "beige" onclick="changeToBeige2()"></button>
+                            <button class="blue" title ="dark blue" onclick="changeToBlue2()"></button>
+                            <button class="zayte" title="dark green"onclick="changeToZayte2()"></button>                              
+                            <button class="black" title="black" onclick="changeToBlack2()"></button>  
+                            <button class="jayshe" title="jayshe" onclick="changeToJayshe2()"></button>
+                        </div>
+                        <br/>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>35USD</h4>
+                    </div>
+                    <a href="#"><i id="cart" class="fal fa-shopping-cart"></i></a>
+                </div>
+
+                <div class="pro">
+                    <img src="../myWebsite/Pictures/Products/f3.png" id="second_product">
+                    <div class="des">
+                        <span>hoodie</span>
+                        <h5>Gray Hoodie</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>35USD</h4>
+                    </div>
+                    <a href="#"><i id="cart" class="fal fa-shopping-cart"></i></a>
+                </div><div class="pro">
+                    <img src="../myWebsite/Pictures/Products/f4.png" id="second_product">
+                    <div class="des">
+                        <span>hoodie</span>
+                        <h5>Blue Hoodie</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>35USD</h4>
+                    </div>
+                    <a href="#"><i id="cart" class="fal fa-shopping-cart"></i></a>
+                </div><div class="pro">
+                    <img src="../myWebsite/Pictures/Products/f5.png" id="second_product">
+                    <div class="des">
+                        <span>jacket</span>
+                        <h5>Black Jacket</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>45USD</h4>
+                    </div>
+                    <a href="#"><i id="cart" class="fal fa-shopping-cart"></i></a>
+                </div><div class="pro">
+                    <img src="../myWebsite/Pictures/Products/f6.png" id="second_product">
+                    <div class="des">
+                        <span>cargo</span>
+                        <h5>Cargo Jeans Gray</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>50USD</h4>
+                    </div>
+                    <a href="#"><i id="cart" class="fal fa-shopping-cart"></i></a>
+                </div><div class="pro">
+                    <img src="../myWebsite/Pictures/Products/f7.png" id="second_product">
+                    <div class="des">
+                        <span>cargo</span>
+                        <h5>Cargo Pants Gray</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>55USD</h4>
+                    </div>
+                    <a href="#"><i id="cart" class="fal fa-shopping-cart"></i></a>
+                </div><div class="pro">
+                    <img src="../myWebsite/Pictures/Products/f8.png" id="second_product">
+                    <div class="des">
+                        <span>jeans</span>
+                        <h5>Brown-Blue Jeans Joggers</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>45USD</h4>
+                    </div>
+                    <a href="#"><i id="cart" class="fal fa-shopping-cart"></i></a>
+                </div><div class="pro">
+                    <img src="../myWebsite/Pictures/Products/f9_bordo.png" id="second_product">
+                    <div class="des">
+                        <span>jacket</span>
+                        <h5>Jacket Fur</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>48USD</h4>
+                    </div>
+                    <a href="#"><i id="cart" class="fal fa-shopping-cart"></i></a>
+                </div><div class="pro">
+                    <img src="../myWebsite/Pictures/Products/f10.png" id="second_product">
+                    <div class="des">
+                        <span>glasses</span>
+                        <h5>Gray Glasses</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>25USD</h4>
+                    </div>
+                    <a href="#"><i id="cart" class="fal fa-shopping-cart"></i></a>
+                </div><div class="pro">
+                    <img src="../myWebsite/Pictures/Products/f11.png" id="second_product">
+                    <div class="des">
+                        <span>glasses</span>
+                        <h5>Gray Glasses</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>25USD</h4>
+                    </div>
+                    <a href="#"><i id="cart" class="fal fa-shopping-cart"></i></a>
+                </div><div class="pro">
+                    <img src="../myWebsite/Pictures/Products/f12.png" id="second_product">
+                    <div class="des">
+                        <span>glasses</span>
+                        <h5>Blue Glasses</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>20USD</h4>
+                    </div>
+                    <a href="#"><i id="cart" class="fal fa-shopping-cart"></i></a>
+                </div>
+                
+            </div>
+        </section>
+
+<section id="pagination" class="section-p1">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
+</section> 
+
+
+<section id = "newsletter"class="section-p1 section-m1">
+    <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+    </div>
+
+    <div class="form">
+        <input type="text" placeholder="Your email adress">
+        <button class = "normal">Sign Up</button>
+    </div>
+</section>
+
+<footer class ="section-p1">
+<div class="col">
+    <img src="../myWebsite/Pictures/myLogo3.jpeg" alt="myLogo" class="logofooter">
+    <h4>Contact</h4>
+    <p><strong>Adress: </strong> Lebanon, Beiruth</p>
+    <p><strong>Phone: </strong> +961 12 345 678</p>
+    <p><strong>Hours: </strong>9:00 - 11:00, Mon - Sat</p>
+
+    <div class="follow"></div>
+    <h4>Follow Us</h4>
+    <div class="icon">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-pinterest"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+</div>
+
+    <div class="col">
+    <h4>About</h4>
+    <a href="#">About us</a>
+    <a href="#">Delievery Information</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Items & Conditions</a>
+    <a href="#">Contact us</a>
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="../myWebsite/Pictures/pay/app.jpg" alt="app store">
+                <img src="../myWebsite/Pictures/pay/play.jpg" alt="play store">
+                
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="../myWebsite/Pictures/pay/pay.png" alt="pay method">
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2023, Mohamad Ali Raad _ All rights reserved</p>
+        </div>
+</footer>
+
+<script type="text/javascript" src ="../myWebsite/myWebsite.js"></script>
+
+    </body>
+</html>  
